@@ -9,6 +9,9 @@ ZSH_THEME="miloshadzic"
 # Plugins
 plugins=(git autojump kubectl docker docker-compose helm npm yarn composer brew golang kube-ps1 asdf vagrant)
 
+# direnv
+eval "$(direnv hook zsh)"
+
 # autojump
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
