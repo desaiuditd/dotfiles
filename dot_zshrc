@@ -29,7 +29,6 @@ export PATH="$PATH:$HOME/.local/bin"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH="$(brew --prefix)/opt/libpq/bin:$PATH"
 export PATH="$(brew --prefix)/opt/openjdk/bin:$PATH"
-export PATH="$PATH:$HOME/.lmstudio/bin"
 # END/update PATH for other tools
 
 # START/aliases
