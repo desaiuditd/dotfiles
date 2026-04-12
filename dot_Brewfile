@@ -9,6 +9,7 @@ brew "direnv"
 brew "dive"           # Analyze Docker images
 brew "duf"
 brew "fd"
+brew "fortune"
 brew "fzf"
 brew "gh"
 brew "git"
