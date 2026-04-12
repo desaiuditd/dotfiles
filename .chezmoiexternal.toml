@@ -1,13 +1,21 @@
+[".config/bat/themes/catppuccin-latte.tmTheme"]
+  type = "file"
+  url = "https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Latte.tmTheme"
+  refreshPeriod = "168h"
+
+[".config/bat/themes/catppuccin-mocha.tmTheme"]
+  type = "file"
+  url = "https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Mocha.tmTheme"
+  refreshPeriod = "168h"
+
+[".config/ghostty/ghostty-shaders/cursor_blaze.glsl"]
+  type = "file"
+  url = "https://github.com/0xhckr/ghostty-shaders/raw/main/cursor_blaze.glsl"
+  refreshPeriod = "168h"
+
 [".oh-my-zsh"]
   type = "archive"
   url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
-  exact = true
-  stripComponents = 1
-  refreshPeriod = "168h"
-
-[".config/ghostty/ghostty-shaders"]
-  type = "archive"
-  url = "https://github.com/hackr-sh/ghostty-shaders/archive/refs/heads/main.tar.gz"
   exact = true
   stripComponents = 1
   refreshPeriod = "168h"
