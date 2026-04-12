@@ -51,6 +51,8 @@ cask "ghostty"
 cask "keycastr"
 cask "ngrok"
 cask "orbstack"
+cask "raycast"
+cask "voiceink"
 
 if File.exist?(File.expand_path("~/.Brewfile.local"))
   instance_eval(File.read(File.expand_path("~/.Brewfile.local")))
