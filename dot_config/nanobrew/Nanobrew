@@ -1,3 +1,19 @@
 # Options
 cask_args appdir: '~/Applications', require_sha: true
 
+# CLI Essentials
+brew 'git'
+
+# CLI Basics
+brew 'bat'
+brew 'duf'
+brew 'fd'
+brew 'direnv'
+brew 'jq'
+brew 'yq'
+
+# CLI Productivity Apps
+brew 'go-task'
+
+# AI Tools
+brew 'agent-browser'
