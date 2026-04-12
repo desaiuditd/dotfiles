@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# File hash for Nanobrew to detect changes and trigger bundle install if needed.
+# Nanobrew hash: {{ include "dot_config/nanobrew/Nanobrew" | sha256sum }}
+
+nb bundle install ~/.config/nanobrew/Nanobrew
