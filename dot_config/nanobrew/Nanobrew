@@ -1,24 +1,24 @@
 # Options
-cask_args appdir: '~/Applications', require_sha: true
+cask_args appdir: "~/Applications", require_sha: true
 
 # CLI Essentials
-brew 'git'
+brew "git"
 
 # CLI Basics
-brew 'bat'
-brew 'duf'
-brew 'fd'
-brew 'direnv'
-brew 'jq'
-brew 'yq'
+brew "bat"
+brew "duf"
+brew "fd"
+brew "direnv"
+brew "jq"
+brew "yq"
 
 # CLI Productivity Apps
-brew 'go-task'
+brew "go-task"
 
 
 # CLI Fun
-brew 'lolcat'       # Make console output rainbow colored
-brew 'neofetch'     # Show system data and distro info
+brew "lolcat"       # Make console output rainbow colored
+brew "neofetch"     # Show system data and distro info
 
 # AI Tools
-brew 'agent-browser'
+brew "agent-browser"
