@@ -24,6 +24,14 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 # END/oh-my-zsh
 
+# START/update PATH for other tools
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+export PATH="$(brew --prefix)/opt/libpq/bin:$PATH"
+export PATH="$(brew --prefix)/opt/openjdk/bin:$PATH"
+export PATH="$PATH:$HOME/.lmstudio/bin"
+# END/update PATH for other tools
+
 # START/aliases
 alias cz=chezmoi
 alias cat=bat
@@ -50,11 +58,3 @@ if type brew &>/dev/null; then
   source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 # END/init other tools
-
-# START/update PATH for other tools
-export PATH="$PATH:$HOME/.local/bin"
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-export PATH="$(brew --prefix)/opt/libpq/bin:$PATH"
-export PATH="$(brew --prefix)/opt/openjdk/bin:$PATH"
-export PATH="$PATH:$HOME/.lmstudio/bin"
-# END/update PATH for other tools
