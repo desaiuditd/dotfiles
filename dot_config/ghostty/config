@@ -11,4 +11,4 @@ background-blur = 10
 
 custom-shader = ghostty-shaders/cursor_blaze.glsl
 
-shell-integration-features = sudo,ssh-terminfo,ssh-env
+shell-integration-features = sudo, ssh-terminfo, ssh-env
