@@ -56,5 +56,9 @@ if type brew &>/dev/null; then
 fi
 # END/init other tools
 
+if [ -f "$HOME/.zshrc.local" ]; then
+  source "$HOME/.zshrc.local"
+fi
+
 # zsh-syntax-highlighting. MUST be last to load.
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
