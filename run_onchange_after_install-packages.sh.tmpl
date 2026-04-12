@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # File hash for Brewfile to detect changes and trigger bundle install if needed.
-# Brewfile hash: {{ include "dot_config/nanobrew/Brewfile" | sha256sum }}
+# Brewfile hash: {{ include "dot_Brewfile" | sha256sum }}
 
-brew bundle install --file=~/.config/nanobrew/Brewfile
+brew bundle install --file=~/.Brewfile
 
 # For the first run, nb path will not be set in .zshrc,
 # so we need to set it here to run the bundle install command.
 # export PATH="/opt/nanobrew/prefix/bin:$PATH"
 
-# nb bundle install ~/.config/nanobrew/Nanobrew
+# nb bundle install ~/.Brewfile
