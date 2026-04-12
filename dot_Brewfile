@@ -29,7 +29,7 @@ brew "lolcat"         # Make console output rainbow colored
 brew "mtr"
 brew "neofetch"       # Show system data and distro info
 brew "neovim"
-brew "ntfs-3g"
+brew "gromgit/homebrew-fuse/ntfs-3g-mac"
 brew "opencode"
 brew "openjdk"
 brew "pipx"
