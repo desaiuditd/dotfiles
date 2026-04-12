@@ -1,24 +1,54 @@
 # Options
 cask_args appdir: "~/Applications", require_sha: true
 
-# CLI Essentials
-brew "git"
-
-# CLI Basics
+brew "agent-browser"
+brew "autojump"
+brew "awscli"
 brew "bat"
+brew "direnv"
+brew "dive"           # Analyze Docker images
 brew "duf"
 brew "fd"
-brew "direnv"
-brew "jq"
-brew "yq"
-
-# CLI Productivity Apps
+brew "fzf"
+brew "gh"
+brew "git"
 brew "go-task"
+brew "helm"
+brew "helmfile"
+brew "hostess"
+brew "htop"
+brew "iredis"
+brew "jq"
+brew "krew"
+brew "kube-ps1"
+brew "kubectx"
+brew "kubernetes-cli"
+brew "lazydocker"
+brew "lolcat"         # Make console output rainbow colored
+brew "mtr"
+brew "neofetch"       # Show system data and distro info
+brew "neovim"
+brew "ntfs-3g-mac"
+brew "opencode"
+brew "openjdk"
+brew "pipx"
+brew "prettier"
+brew "ripgrep"
+brew "rsync"
+brew "speedtest-cli"
+brew "sqlite"
+brew "wget"
+brew "yq"
+# brew "zsh-autocomplete"
+# brew "zsh-completions"
+# brew "zsh-syntax-highlighting"
 
-
-# CLI Fun
-brew "lolcat"       # Make console output rainbow colored
-brew "neofetch"     # Show system data and distro info
-
-# AI Tools
-brew "agent-browser"
+cask "cmux"
+cask "ghostty"
+cask "keycastr"
+cask "kubefwd"
+cask "mactex"
+cask "mounty"
+cask "mounty"
+cask "ngrok"
+cask "orbstack"
