@@ -48,6 +48,7 @@ brew "zoxide"
 # brew "zsh-syntax-highlighting"
 
 cask "cmux"
+cask "font-fira-code-nerd-font"
 cask "ghostty"
 cask "keycastr"
 cask "mactex"
