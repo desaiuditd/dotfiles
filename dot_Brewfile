@@ -8,6 +8,7 @@ brew "difftastic"
 brew "direnv"
 brew "dive"           # Analyze Docker images
 brew "duf"
+brew "eza"
 brew "fd"
 brew "fortune"
 brew "fzf"
