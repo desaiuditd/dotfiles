@@ -26,6 +26,7 @@ source $ZSH/oh-my-zsh.sh
 
 # START/update PATH for other tools
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="$HOME/.deno/bin:$PATH"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH="$(brew --prefix)/opt/libpq/bin:$PATH"
 export PATH="$(brew --prefix)/opt/openjdk/bin:$PATH"
