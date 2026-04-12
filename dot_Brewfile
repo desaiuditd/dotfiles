@@ -29,7 +29,6 @@ brew "lolcat"         # Make console output rainbow colored
 brew "mtr"
 brew "neofetch"       # Show system data and distro info
 brew "neovim"
-brew "gromgit/homebrew-fuse/ntfs-3g-mac"
 brew "opencode"
 brew "openjdk"
 brew "pipx"
@@ -50,8 +49,12 @@ cask "cmux"
 cask "ghostty"
 cask "keycastr"
 cask "kubefwd"
-cask "macfuse"
 cask "mactex"
 cask "mounty"
 cask "ngrok"
 cask "orbstack"
+
+# macfuse is a dependency for ntfs-3g-mac,
+# which is required to be installed before installing ntfs-3g-mac.
+cask "macfuse"
+brew "gromgit/homebrew-fuse/ntfs-3g-mac"
