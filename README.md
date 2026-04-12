@@ -21,5 +21,5 @@ chezmoi init desaiuditd
 ### Apply dotfiles repo to current machine
 
 ```bash
-chezmoi -v apply
+chezmoi apply
 ```
