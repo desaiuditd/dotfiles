@@ -1,2 +1,4 @@
 eval "$(starship init zsh)"
 
+# Aliases
+alias cz=chezmoi
