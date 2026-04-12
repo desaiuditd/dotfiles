@@ -1,9 +1,9 @@
-# Options
 cask_args appdir: "~/Applications", require_sha: true
 
 brew "agent-browser"
 brew "awscli"
 brew "bat"
+brew "deno"
 brew "difftastic"
 brew "direnv"
 brew "dive"           # Analyze Docker images
@@ -49,12 +49,9 @@ cask "cmux"
 cask "font-fira-code-nerd-font"
 cask "ghostty"
 cask "keycastr"
-cask "mactex"
-cask "mounty"
 cask "ngrok"
 cask "orbstack"
 
-# macfuse is a dependency for ntfs-3g-mac,
-# which is required to be installed before installing ntfs-3g-mac.
-cask "macfuse"
-brew "gromgit/homebrew-fuse/ntfs-3g-mac"
+if File.exist?(File.expand_path("~/.Brewfile.local"))
+  instance_eval(File.read(File.expand_path("~/.Brewfile.local")))
+end
