@@ -26,6 +26,7 @@ source $ZSH/oh-my-zsh.sh
 
 # START/aliases
 alias cz=chezmoi
+alias cat=bat
 # END/aliases
 
 # START/init other tools
