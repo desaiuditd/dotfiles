@@ -1,0 +1,14 @@
+theme = light:Catppuccin Latte, dark:Catppuccin Mocha
+
+bell-features = audio, attention, system, title
+
+keybind = global:cmd+shift+enter=toggle_quick_terminal
+
+quick-terminal-size = 55%,100%
+
+background-opacity = 0.8
+background-blur = 10
+
+custom-shader = ghostty-shaders/cursor_blaze.glsl
+
+shell-integration-features = sudo,ssh-terminfo,ssh-env

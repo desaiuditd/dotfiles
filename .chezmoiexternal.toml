@@ -4,3 +4,10 @@
   exact = true
   stripComponents = 1
   refreshPeriod = "168h"
+
+[".config/ghostty/ghostty-shaders"]
+  type = "archive"
+  url = "https://github.com/hackr-sh/ghostty-shaders/archive/refs/heads/main.tar.gz"
+  exact = true
+  stripComponents = 1
+  refreshPeriod = "168h"
