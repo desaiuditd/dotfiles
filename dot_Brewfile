@@ -54,6 +54,7 @@ cask "keycastr"
 cask "ngrok"
 cask "orbstack"
 cask "raycast"
+cask "visual-studio-code"
 cask "voiceink"
 
 if File.exist?(File.expand_path("~/.Brewfile.local"))
