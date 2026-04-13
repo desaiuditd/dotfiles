@@ -50,7 +50,7 @@ brew "zsh-syntax-highlighting"
 cask "altair-graphql-client"
 cask "bitwarden"
 cask "brave-browser"
-cask "clocker"
+cask "clocker", args: { appdir: "/Applications" } # This app needs to be in /Applications to work properly
 cask "cmux"
 cask "copilot-cli"
 cask "firefox"
