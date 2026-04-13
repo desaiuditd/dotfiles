@@ -30,7 +30,7 @@ $cmd_duration\
 $line_break\
 $character"""
 
-palette = 'catppuccin_mocha'
+palette = "catppuccin_mocha"
 
 [os]
 disabled = false
@@ -163,7 +163,7 @@ vimcmd_visual_symbol = '[❮](bold fg:yellow)'
 [kubernetes]
 disabled = false
 format = '[ $symbol$context( \($namespace\)) in ]($style)'
-style = "bg:cyan fg:black bold"
+style = "bg:cyan fg:base bold"
 
 [cmd_duration]
 show_milliseconds = true
