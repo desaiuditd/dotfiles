@@ -49,6 +49,7 @@ brew "zsh-syntax-highlighting"
 
 cask "cmux"
 cask "font-fira-code-nerd-font"
+cask "fork"
 cask "ghostty"
 cask "keycastr"
 cask "ngrok"
