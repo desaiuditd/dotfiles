@@ -13,7 +13,7 @@
 
 ### Source Extraction Standards
 
-When finding information from any source (web, MCP tool, Playwright, database, file, etc.):
+When finding information from any source (web, MCP tool, Playwright, Chrome DevTools, Context7, Terminal output, CLI scripts output, database, file, etc.):
 
 **Credibility Requirements:**
 
