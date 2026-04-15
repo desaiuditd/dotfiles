@@ -1,4 +1,4 @@
-# AGENTS.md - Global Instructions
+# AGENTS.md / CLAUDE.md - Global Instructions
 
 ## Interaction Style
 
