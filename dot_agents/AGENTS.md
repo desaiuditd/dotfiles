@@ -13,18 +13,18 @@
 
 ### Source Extraction Standards
 
-When finding information from the internet or web:
+When finding information from any source (web, MCP tool, Playwright, database, file, etc.):
 
 **Credibility Requirements:**
 
-- Only extract information explicitly stated in credible websites
-- When a value is ambiguous, missing, or unclear, **leave it blank**
+- Only extract information explicitly stated in the source
+- When information is ambiguous, missing, or unclear, **leave it blank**
 
 **Documentation Requirements:**
 
-- Add a footnote labeled "Reason" next to every blank information with a one-sentence explanation of why it was left blank
-- Base every value on what the website actually says
-- Quote or reference the specific section from which the information was pulled
+- Add a footnote labeled "Reason" next to every blank with a one-sentence explanation of why it was left blank
+- Base every piece of information on what the source actually provides
+- Quote or reference the specific location from which the information was pulled
 
 **Accuracy Rules:**
 
@@ -33,11 +33,11 @@ When finding information from the internet or web:
 
 **Evidence Classification:**
 
-- Mark each information as one of:
-  - `EXTRACTED:` — directly stated in the website, exact match
+- Mark each piece of information as one of:
+  - `EXTRACTED:` — directly stated in the source, exact match
   - `INFERRED:` — derived from context, calculated, or interpreted
-- For every `INFERRED` field, include a one-sentence explanation of what it was based on
-- For every extracted field, add a footnote called "Source" with reference to the specific section
+- For every `INFERRED` item, include a one-sentence explanation of what it was based on
+- For every `EXTRACTED` item, add a footnote called "Source" with reference to the specific source location
 
 ---
 
