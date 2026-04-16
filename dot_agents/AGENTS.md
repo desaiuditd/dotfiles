@@ -1,4 +1,4 @@
-# AGENTS.md / CLAUDE.md - Global Instructions
+# AGENTS.md / CLAUDE.md / copilot-instructions.md - Global Instructions
 
 ## Interaction Style
 
@@ -13,7 +13,8 @@
 
 ### Source Extraction Standards
 
-When finding information from any source (web, MCP tool, Playwright, Chrome DevTools, Context7, Terminal output, CLI scripts output, database, file, etc.):
+When finding information from any source (web, MCP tool, Playwright, Chrome DevTools, Context7, Terminal output, CLI
+scripts output, database, file, etc.):
 
 **Credibility Requirements:**
 
