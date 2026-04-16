@@ -162,7 +162,7 @@ vimcmd_visual_symbol = '[❮](bold fg:yellow)'
 
 [kubernetes]
 disabled = false
-format = '[ $symbol$context( \($namespace\)) in ]($style)'
+format = '[ $symbol$context( \($namespace\))]($style)'
 style = "bg:cyan fg:base bold"
 
 [cmd_duration]
