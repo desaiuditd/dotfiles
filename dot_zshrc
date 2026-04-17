@@ -32,23 +32,6 @@ export PATH="$(brew --prefix)/opt/libpq/bin:$PATH"
 export PATH="$(brew --prefix)/opt/openjdk/bin:$PATH"
 # END/update PATH for other tools
 
-# START/aliases
-alias cz=chezmoi
-alias cat=bat
-
-# Git Aliases. Ref: https://piechowski.io/post/git-commands-before-reading-code/
-# What Changes the Most
-alias gcm='git log --format=format: --name-only --since="1 year ago" | sort | uniq -c | sort -nr | head -20'
-# Who Built This
-alias gwb='git shortlog -sn --no-merges'
-# Where Do Bugs Cluster
-alias gbc='git log -i -E --grep="fix|bug|broken" --name-only --format="" | sort | uniq -c | sort -nr | head -20'
-# Is This Project Accelerating or Dying
-alias gpad='git log --format="%ad" --date=format:"%Y-%m" | sort | uniq -c'
-# How Often Is the Team Firefighting
-alias gff='git log --oneline --since="1 year ago" | grep -iE "revert|hotfix|emergency|rollback"'
-# END/aliases
-
 # START/init other tools
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
@@ -66,11 +49,31 @@ if type brew &>/dev/null; then
   # compinit
   source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 fi
+
+source <(kubie generate-completion)
 # END/init other tools
 
 if [ -f "$HOME/.zshrc.local" ]; then
   source "$HOME/.zshrc.local"
 fi
+
+# START/aliases
+alias cz=chezmoi
+alias cat=bat
+alias kb='kubie'
+
+# Git Aliases. Ref: https://piechowski.io/post/git-commands-before-reading-code/
+# What Changes the Most
+alias gcm='git log --format=format: --name-only --since="1 year ago" | sort | uniq -c | sort -nr | head -20'
+# Who Built This
+alias gwb='git shortlog -sn --no-merges'
+# Where Do Bugs Cluster
+alias gbc='git log -i -E --grep="fix|bug|broken" --name-only --format="" | sort | uniq -c | sort -nr | head -20'
+# Is This Project Accelerating or Dying
+alias gpad='git log --format="%ad" --date=format:"%Y-%m" | sort | uniq -c'
+# How Often Is the Team Firefighting
+alias gff='git log --oneline --since="1 year ago" | grep -iE "revert|hotfix|emergency|rollback"'
+# END/aliases
 
 # zsh-syntax-highlighting. MUST be last to load.
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
