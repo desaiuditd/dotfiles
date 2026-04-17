@@ -49,8 +49,6 @@ if type brew &>/dev/null; then
   # compinit
   source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 fi
-
-source <(kubie generate-completion)
 # END/init other tools
 
 if [ -f "$HOME/.zshrc.local" ]; then
@@ -60,7 +58,7 @@ fi
 # START/aliases
 alias cz=chezmoi
 alias cat=bat
-alias kb='kubie'
+alias kcx='kubectx'
 
 # Git Aliases. Ref: https://piechowski.io/post/git-commands-before-reading-code/
 # What Changes the Most
