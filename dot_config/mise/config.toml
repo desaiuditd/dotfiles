@@ -1,3 +1,14 @@
 [tools]
+agent-browser = 'latest'
 go = 'latest'
+helm = 'latest'
+helmfile = 'latest'
+krew = 'latest'
+kubectl = 'latest'
+kubectx = 'latest'
 node = 'lts'
+opencode = 'latest'
+prettier = 'latest'
+
+[settings]
+node.corepack = true
