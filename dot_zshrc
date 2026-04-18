@@ -33,6 +33,7 @@ export PATH="$(brew --prefix)/opt/openjdk/bin:$PATH"
 # END/update PATH for other tools
 
 # START/init other tools
+eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 

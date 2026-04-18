@@ -1,0 +1,16 @@
+# START/update PATH for other tools
+export PATH="$PATH:/Users/udit.desai/.local/bin"
+# END/update PATH for other tools
+
+# START/init other tools
+# Added by OrbStack: command-line tools and integration
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+
+eval "$(/opt/homebrew/bin/brew shellenv)" # Created by pipx
+
+eval "$(mise activate zsh --shims)"
+# END/init other tools
+
+if [ -f "$HOME/.zprofile.local" ]; then
+  source "$HOME/.zprofile.local"
+fi

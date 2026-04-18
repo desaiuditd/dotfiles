@@ -29,6 +29,7 @@ brew "kubefwd"
 brew "kubernetes-cli"
 brew "lazydocker"
 brew "lolcat"         # Make console output rainbow colored
+brew "mise"
 brew "mtr"
 brew "neovim"
 brew "opencode"
