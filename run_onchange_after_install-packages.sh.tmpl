@@ -12,6 +12,6 @@ brew bundle install --file=~/.Brewfile
 # nb bundle install ~/.Brewfile
 
 # File hash for .tool-versions to detect changes and trigger mise install if needed.
-# .tool-versions hash: {{ include "dot_tool-versions" | sha256sum }}
+# .tool-versions hash: {{ include "dot_config/mise/config.toml" | sha256sum }}
 
 mise install
