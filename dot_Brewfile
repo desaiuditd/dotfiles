@@ -24,7 +24,7 @@ cask "font-fira-code-nerd-font"
 cask "fork"
 cask "google-chrome", args: { require_sha: false }
 cask "keycastr"
-cask "lm-studio"
+cask "lm-studio", args: { appdir: "/Applications" } # This app needs to be in /Applications to work properly
 cask "ngrok"
 cask "obsidian"
 cask "orbstack"
