@@ -10,3 +10,8 @@ brew bundle install --file=~/.Brewfile
 # export PATH="/opt/nanobrew/prefix/bin:$PATH"
 
 # nb bundle install ~/.Brewfile
+
+# File hash for .tool-versions to detect changes and trigger mise install if needed.
+# .tool-versions hash: {{ include "dot_tool-versions" | sha256sum }}
+
+mise install
