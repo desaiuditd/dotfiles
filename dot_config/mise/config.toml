@@ -6,6 +6,7 @@
 "aqua:vercel-labs/agent-browser" = "latest"
 awscli = "latest"
 bat = "latest"
+bitwarden = "latest"  # This is bitwarden-cli, not the desktop app.
 copilot-cli = "latest"
 deno = "latest"
 difftastic = "latest"
