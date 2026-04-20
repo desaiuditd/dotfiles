@@ -33,13 +33,11 @@ export PATH="$(brew --prefix)/opt/openjdk/bin:$PATH"
 # END/update PATH for other tools
 
 # START/init other tools
+eval "$(bw completion --shell zsh); compdef _bw bw;"
 eval "$(mise activate zsh)"
+eval "$(ngrok completion)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
-
-if command -v ngrok &>/dev/null; then
-  eval "$(ngrok completion)"
-fi
 
 if type brew &>/dev/null; then
   # zsh-completions
