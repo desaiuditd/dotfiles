@@ -36,3 +36,6 @@ zoxide = "latest"
 
 [settings]
 node.corepack = true
+
+[settings.github]
+use_git_credentials = true
