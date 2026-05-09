@@ -27,6 +27,7 @@ kubectx = "latest"
 lazydocker = "latest"
 neovim = "latest"
 node = "lts"
+"npm:corepack" = "latest"
 opencode = "latest"
 pipx = "latest"
 prettier = "latest"
@@ -40,3 +41,7 @@ node.corepack = true
 
 [settings.github]
 use_git_credentials = true
+
+[shell_alias]
+"pn" = "pnpm"
+"pnx" = "pnpm dlx"
