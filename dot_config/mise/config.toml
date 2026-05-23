@@ -42,5 +42,7 @@ node.corepack = true
 use_git_credentials = true
 
 [shell_alias]
+# https://github.com/orgs/pnpm/discussions/3383#discussioncomment-16247139
+# https://github.com/nodejs/corepack/issues/833
 "pn" = "pnpm"
 "pnx" = "pnpm dlx"
