@@ -30,6 +30,7 @@ node = "lts"
 opencode = "latest"
 uv = "latest"  # uv needs to be installed first, before other pipx packages.
 prettier = "latest"
+python = "latest"
 ripgrep = "latest"
 starship = "latest"
 yq = "latest"
@@ -39,6 +40,7 @@ zoxide = "latest"
 node.corepack = true
 
 [settings.github]
+credential_command = "gh auth token"
 use_git_credentials = true
 
 [shell_alias]
