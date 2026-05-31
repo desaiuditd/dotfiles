@@ -17,7 +17,7 @@
   newHighlight = green bold 22
 
 [core]
-  editor = code --wait
+  editor = code-insiders --wait
 
 [credential]
   helper = osxkeychain
