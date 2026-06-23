@@ -50,3 +50,5 @@ use_git_credentials = true
 # https://github.com/nodejs/corepack/issues/833
 "pn" = "pnpm"
 "pnx" = "pnpm dlx"
+
+"code" = "code-insiders"
