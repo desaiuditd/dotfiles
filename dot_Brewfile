@@ -32,7 +32,6 @@ cask "orbstack"
 cask "raycast"
 cask "redis-insight"
 cask "visual-studio-code"
-cask "visual-studio-code@insiders"
 cask "voiceink"
 
 if File.exist?(File.expand_path("~/.Brewfile.local"))
