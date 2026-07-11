@@ -55,6 +55,8 @@ fi
 # START/aliases
 alias cat=bat
 alias cz=chezmoi
+alias df=duf
+alias find=fd
 alias kcx='kubectx'
 
 # Git Aliases. Ref: https://piechowski.io/post/git-commands-before-reading-code/
