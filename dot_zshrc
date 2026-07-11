@@ -53,8 +53,8 @@ if [ -f "$HOME/.zshrc.local" ]; then
 fi
 
 # START/aliases
-alias cz=chezmoi
 alias cat=bat
+alias cz=chezmoi
 alias kcx='kubectx'
 
 # Git Aliases. Ref: https://piechowski.io/post/git-commands-before-reading-code/
