@@ -32,6 +32,7 @@ node = "lts"
 opencode = "latest"
 uv = "latest"  # uv needs to be installed first, before other pipx packages.
 "pipx:apm-cli" = "latest"
+"pipx:github/spec-kit" = "latest"
 prettier = "latest"
 python = "latest"
 ripgrep = "latest"
