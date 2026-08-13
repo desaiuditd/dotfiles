@@ -10,6 +10,7 @@ brew "openjdk"
 brew "rsync"
 brew "sqlite-rsync"
 brew "sqlite"
+brew "teamookla/speedtest/speedtest", trusted: true
 brew "wget"
 brew "zsh-autocomplete"
 brew "zsh-completions"
