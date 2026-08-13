@@ -37,6 +37,7 @@ uv = "latest"  # uv needs to be installed first, before other pipx packages.
 prettier = "latest"
 python = "latest"
 ripgrep = "latest"
+rtk = "latest"
 starship = "latest"
 yq = "latest"
 zoxide = "latest"
