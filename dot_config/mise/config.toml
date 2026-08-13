@@ -30,7 +30,6 @@ node = "lts"
 "npm:corepack" = "latest"
 "npm:@modelcontextprotocol/server-sequential-thinking" = "latest"
 "npm:tractatus_thinking" = "latest"
-opencode = "latest"
 uv = "latest"  # uv needs to be installed first, before other pipx packages.
 "pipx:apm-cli" = "latest"
 "pipx:github/spec-kit" = "latest"
