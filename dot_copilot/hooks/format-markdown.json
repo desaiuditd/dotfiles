@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "hooks": {
+    "postToolUse": [
+      {
+        "type": "command",
+        "matcher": "create|edit",
+        "command": "path=$(jq -r '.toolArgs | fromjson | .path // empty'); case \"$path\" in *.md) prettier \"$path\" -w --prose-wrap always --print-width 120 ;; esac",
+        "cwd": ".",
+        "timeoutSec": 15
+      }
+    ]
+  }
+}
