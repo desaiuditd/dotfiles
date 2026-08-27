@@ -1,0 +1,15 @@
+{
+  "providers": [
+    {
+      "hosts": [
+        "github.com",
+        "api.github.com",
+        "raw.githubusercontent.com",
+        "codeload.github.com"
+      ],
+      "provider": "github",
+      "auth": "bearer",
+      "token_env": "GH_TOKEN"
+    }
+  ]
+}
