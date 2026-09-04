@@ -127,9 +127,33 @@ scripts output, database, file, etc.):
 
 <!-- rtk-instructions v2 -->
 
-## RTK — Token-Optimized CLI
+## RTK — Rust Token Killer
 
-**rtk** is a CLI proxy that filters and compresses command outputs, saving 60-90% tokens.
+**rtk** is a token-optimized CLI proxy that filters and compresses command outputs, saving 60-90% tokens.
+
+### Meta commands (always use rtk directly)
+
+```bash
+rtk gain              # Show token savings analytics
+rtk gain --history    # Show command usage history with savings
+rtk discover          # Analyze agents history for missed opportunities
+rtk proxy <cmd>       # Run raw command without filtering (for debugging) but track usage
+```
+
+### Installation Verification
+
+```bash
+rtk --version         # Should show: rtk X.Y.Z
+rtk gain              # Should work (not "command not found")
+which rtk             # Verify correct binary
+```
+
+⚠️ **Name collision**: If `rtk gain` fails, you may have reachingforthejack/rtk (Rust Type Kit) installed instead.
+
+### Hook-Based Usage
+
+All other commands are automatically rewritten by the agent hook.
+Example: `git status` → `rtk git status` (transparent, 0 tokens overhead)
 
 ### Rule
 
@@ -142,15 +166,6 @@ git log -10                rtk git log -10
 cargo test                 rtk cargo test
 docker ps                  rtk docker ps
 kubectl get pods           rtk kubectl get pods
-```
-
-### Meta commands (use directly)
-
-```bash
-rtk gain              # Token savings dashboard
-rtk gain --history    # Per-command savings history
-rtk discover          # Find missed rtk opportunities
-rtk proxy <cmd>       # Run raw (no filtering) but track usage
 ```
 
 <!-- /rtk-instructions -->
