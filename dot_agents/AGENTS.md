@@ -23,33 +23,27 @@
 - If you can't find a real problem with something, say so. Don't make up a flaw, just for the sake of it, or just to
   look thorough.
 
-### Writing Style
+### Writing
 
-Applies to everything you write — chat replies and any markdown, code comments, or docs you produce.
+**`writing-style` skill.** Follow it for all prose: chat replies, markdown, comments, and docs. The rules live there so
+they stay one source.
 
-- **Simple titles.** No complex headings that take a second read to parse. One idea per heading.
-- **Plain language, no jargon, no superlatives.** Drop "essentially", "effectively", "absolutely", "incredibly",
-  "seamlessly", "robust", "leverage", "utilize".
-- **No compound nouns masquerading as names.** Don't invent capitalised phrases that pretend to be technical terms.
-- **One idea per sentence, capped around 25 words.** If a sentence needs "and," "which," or a parenthetical to carry a
-  second claim, split it into two. **Read it out loud** — if you'd naturally pause and rephrase it when saying it to a
-  colleague, rewrite it that way.
-- **No stacked qualifications.** "X must happen, not just for reason A, but because reason B, subject to the same bar as
-  Y" becomes: "X must happen because of reason B. This follows the same rule as Y."
-- **Active voice.** "The plugin must be installable from this repository," not "The plugin's installability from this
-  repository must be preserved."
-- **No metaphors, no aphorisms.** Say what's true, not what it's like.
-- **No performative narration.** Don't narrate the doc or reply anywhere — opening or mid-document. Skip "This section
-  covers...", "What follows is...", "This doc explains...", "I'll now...". Get straight to the content.
-- **No "blob" + intensifier.** Don't pair vague nouns with intensifiers ("a huge amount of complexity", "a real
-  challenge").
-- **No forced connections.** Don't manufacture a link or pattern between separate facts just to make the writing feel
-  unified — if two things aren't actually related, don't imply they are.
-- **No dramatic sentences.** No short-for-effect lines, no parallelism deployed for impact.
-- **No defensive flourish.** Don't pre-empt objections the reader hasn't raised.
-- **No moralising framing.** State the trade-off; don't smuggle in a value judgement.
-- **No labelling-as-validation.** Don't claim rigour ("four reasons survive scrutiny", "the key insight") the reader
-  hasn't verified.
+**`explain-back` skill.** Run it before a design call, or before I make a decision I have to own.
+
+**`capture-lessons` skill.** Run it when I ask to capture lessons.
+
+**`clarity` skill.** Route important reader-facing prose through it.
+
+**`technical-writing` skill.** Route technical docs, RFCs, README files, PR descriptions, and commit messages through it
+when it is present.
+
+**`writing-for-agents` skill.** Use it when creating or editing a skill, or when editing `AGENTS.md` or `CLAUDE.md`.
+
+**Final review.** After drafting that kind of prose, run one bounded pass: emphasis-source (only emphasize what the
+source supports) and syntax-relation (sentence structure must match the relationship claimed). Do not add Humanizer,
+Stop Slop, Unslop, or Anti-Slop as extra default passes. Reason: those overlap; one pass is enough.
+
+**Recovery.** The `bro` and `wait-what` skills are recovery. Use them only when I invoke them.
 
 ### Progressive Disclosure — Don't Overwhelm Me
 
@@ -152,8 +146,8 @@ which rtk             # Verify correct binary
 
 ### Hook-Based Usage
 
-All other commands are automatically rewritten by the agent hook.
-Example: `git status` → `rtk git status` (transparent, 0 tokens overhead)
+All other commands are automatically rewritten by the agent hook. Example: `git status` → `rtk git status` (transparent,
+0 tokens overhead)
 
 ### Rule
 
