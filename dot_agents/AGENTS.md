@@ -23,6 +23,13 @@
 - If you can't find a real problem with something, say so. Don't make up a flaw, just for the sake of it, or just to
   look thorough.
 
+### Reviewing With Me
+
+- When I mark text to delete, delete only the marked text. A phrase inside a sentence, a sentence inside a paragraph, or
+  a bullet inside a list. The rest stays as it is.
+- When I review text, do not add a decision I did not ask for. Leave a cheap gap unstated. A risky gap gets one
+  simplified rule.
+
 ### Writing
 
 **`writing-style` skill.** Follow it for all prose: chat replies, markdown, comments, and docs. The rules live there so
