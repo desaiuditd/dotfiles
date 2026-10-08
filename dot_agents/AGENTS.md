@@ -38,6 +38,10 @@ answer.
 **`writing-style` skill.** Follow it for all prose: chat replies, markdown, comments, and docs. The rules live there so
 they stay one source.
 
+**Format.** If you are checking a flow, a comparison, or a behavior, and a diagram is shorter than the paragraph, use
+the `visualize` skill. If you need to operate the behavior, use the `prototype` skill. If you need to keep the artifact
+and come back to it, use the `canvas` skill. Any other chat reply stays the short answer from `writing-style`.
+
 **`explain-back` skill.** Run it before a design call, or before I make a decision I have to own.
 
 **`capture-lessons` skill.** Run it when I ask to capture lessons.
