@@ -6,7 +6,7 @@
 "aqua:vercel-labs/agent-browser" = "latest"
 awscli = "latest"
 bat = "latest"
-deno = "latest"
+bun = "latest"
 difftastic = "latest"
 dive = "latest"  # Analyze Docker images
 duf = "latest"
