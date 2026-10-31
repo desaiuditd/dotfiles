@@ -18,6 +18,7 @@ brew "zsh-syntax-highlighting"
 
 cask "altair-graphql-client"
 cask "bitwarden"
+cask "homebrew-app"
 cask "brave-browser"
 cask "clocker", args: { appdir: "/Applications" } # This app needs to be in /Applications to work properly
 cask "cmux"
