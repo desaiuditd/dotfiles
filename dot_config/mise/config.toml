@@ -28,6 +28,7 @@ miller = "latest"
 neovim = "latest"
 node = "lts"
 "npm:corepack" = "latest"
+"npm:@minimax-ai/code" = "latest"
 "npm:@modelcontextprotocol/server-sequential-thinking" = "latest"
 "npm:tractatus_thinking" = "latest"
 uv = "latest"  # uv needs to be installed first, before other pipx packages.
