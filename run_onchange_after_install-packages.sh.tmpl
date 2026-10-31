@@ -5,12 +5,6 @@
 
 brew bundle install --file=~/.Brewfile
 
-# For the first run, nb path will not be set in .zshrc,
-# so we need to set it here to run the bundle install command.
-# export PATH="/opt/nanobrew/prefix/bin:$PATH"
-
-# nb bundle install ~/.Brewfile
-
 # File hash for .tool-versions to detect changes and trigger mise install if needed.
 # .tool-versions hash: {{ include "dot_config/mise/config.toml" | sha256sum }}
 
