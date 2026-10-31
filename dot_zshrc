@@ -33,6 +33,7 @@ export PATH="$HOME/.minimax/bin:$PATH"
 # END/update PATH for other tools
 
 # START/init other tools
+eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(mise activate zsh)"
 eval "$(ngrok completion)"
 eval "$(starship init zsh)"
