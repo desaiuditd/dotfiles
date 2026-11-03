@@ -43,9 +43,6 @@
   process = git-lfs filter-process
   required = true
 
-[include]
-  path = .gitconfig.local
-
 [init]
   defaultBranch = main
 
@@ -59,3 +56,6 @@
 
 [rebase]
   updateRefs = true
+
+[include]
+  path = .gitconfig.local
