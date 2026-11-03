@@ -57,5 +57,8 @@
 [rebase]
   updateRefs = true
 
+[rerere]
+	enabled = true
+
 [include]
   path = .gitconfig.local
