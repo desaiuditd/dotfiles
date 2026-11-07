@@ -23,12 +23,11 @@ cask "clocker", args: { appdir: "/Applications" } # This app needs to be in /App
 cask "cmux"
 cask "cyberduck"
 cask "datagrip"
-cask "firefox"
 cask "font-fira-code-nerd-font"
 cask "fork"
-cask "google-chrome", args: { require_sha: false }
 cask "iptvnator"
 cask "keycastr"
+cask "librewolf"
 cask "minimax-ai/tap/minimax-code", args: { language: "en" }
 cask "ngrok"
 cask "obsidian"
