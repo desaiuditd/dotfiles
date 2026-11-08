@@ -1,0 +1,37 @@
+name: udit.desai
+version: 1.0.0
+description: APM project for udit.desai
+author: Udit Desai
+# Which agent platforms to deploy to:
+targets:
+  - copilot
+
+dependencies:
+  apm:
+    - cursor/plugins/pstack/skills/bro#978ca6e
+    - addyosmani/clarity#0.2.1
+    - vercel-labs/agent-browser#0.41.2
+    - git: anthropics/skills
+      ref: 2c5958e
+      skills:
+        - skill-creator
+    - desaiuditd/skills#48911c5
+    - git: mattpocock/skills
+      ref: 1.3.2
+      skills:
+        - codebase-design
+        - domain-modeling
+        - grill-me
+        - grilling
+        - handoff
+        - improve-codebase-architecture
+        - prototype
+        - research
+        - retro
+        - teach
+        - to-questionnaire
+        - wayfinder
+        - writing-for-agents
+  mcp: []
+includes: auto
+scripts: {}

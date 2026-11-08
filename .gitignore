@@ -1,2 +1,6 @@
 .vscode
 .DS_Store
+dot_apm/.agents
+dot_apm/.github
+dot_apm/.gitignore
+dot_apm/apm_modules
