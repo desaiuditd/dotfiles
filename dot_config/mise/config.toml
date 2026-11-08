@@ -28,7 +28,7 @@ miller = "latest"
 neovim = "latest"
 node = "lts"
 "npm:corepack" = "latest"
-"npm:@minimax-ai/code" = "latest"
+"npm:@minimax-ai/code" = { version = "latest", allow_builds = [ "better-sqlite3" ] }
 "npm:@modelcontextprotocol/server-sequential-thinking" = "latest"
 "npm:tractatus_thinking" = "latest"
 "npm:wrangler" = "latest"
