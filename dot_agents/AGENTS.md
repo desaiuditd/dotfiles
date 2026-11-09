@@ -57,7 +57,7 @@ when it is present.
 source supports) and syntax-relation (sentence structure must match the relationship claimed). Do not add Humanizer,
 Stop Slop, Unslop, or Anti-Slop as extra default passes. Reason: those overlap; one pass is enough.
 
-**Recovery.** The `bro` and `wait-what` skills are recovery. Use them only when I invoke them.
+**Didn't land.** `bro` restates the last message in plain words, without jargon. Run it only when I invoke it.
 
 ### Progressive Disclosure — Don't Overwhelm Me
 
