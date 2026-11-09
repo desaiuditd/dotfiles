@@ -251,8 +251,8 @@ dependencies:
 - repo_url: cursor/plugins
   name: bro
   host: github.com
-  resolved_commit: 978ca6e9c0e012047cd5058b8e829240336e704e
-  resolved_ref: 978ca6e
+  resolved_commit: c742dd61706fbacc1b95f1a20b7b988cf096ce6c
+  resolved_ref: c742dd6
   version: unknown
   virtual_path: pstack/skills/bro
   is_virtual: true
@@ -263,6 +263,21 @@ dependencies:
   deployed_file_hashes:
     .agents/skills/bro/SKILL.md: sha256:aa329d0ceeeecb6822a7174ad76bb07a7826a3c52ceb6a588dec4138815084bb
   content_hash: sha256:b651827a1c11465d79500780e53414fdccffd12ce3b640138dee2d04133a9a33
+- repo_url: cursor/plugins
+  name: technical-writing
+  host: github.com
+  resolved_commit: c742dd61706fbacc1b95f1a20b7b988cf096ce6c
+  resolved_ref: c742dd6
+  version: unknown
+  virtual_path: pstack/skills/technical-writing
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/technical-writing
+  - .agents/skills/technical-writing/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/technical-writing/SKILL.md: sha256:61fe9c424a798ebf36ad94941f87be049cb8827bdf86d21474a0dde37b513c43
+  content_hash: sha256:a7c43dc2b94eeff919575766da35b695d61b677ec44476bb8feb5d82c5fa0328
 - repo_url: desaiuditd/skills
   name: skills
   host: github.com
@@ -1919,6 +1934,24 @@ deployments:
   - mattpocock/skills
   active_owner: mattpocock/skills
   content_hash: sha256:5856f3ae8aec742f1499c640aecdd5f1d6af5fa210a7c6ec794de8263a6f733f
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/technical-writing
+  runtime: null
+  scope: project
+  owners:
+  - cursor/plugins/pstack/skills/technical-writing
+  active_owner: cursor/plugins/pstack/skills/technical-writing
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/technical-writing/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - cursor/plugins/pstack/skills/technical-writing
+  active_owner: cursor/plugins/pstack/skills/technical-writing
+  content_hash: sha256:61fe9c424a798ebf36ad94941f87be049cb8827bdf86d21474a0dde37b513c43
 - kind: project-relative
   target: copilot
   value: .agents/skills/to-questionnaire

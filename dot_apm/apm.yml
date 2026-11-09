@@ -8,7 +8,7 @@ targets:
 
 dependencies:
   apm:
-    - cursor/plugins/pstack/skills/bro#978ca6e
+    - cursor/plugins/pstack/skills/bro#c742dd6
     - addyosmani/clarity#0.2.1
     - vercel-labs/agent-browser#0.41.2
     - git: anthropics/skills
@@ -32,6 +32,7 @@ dependencies:
         - to-questionnaire
         - wayfinder
         - writing-for-agents
+    - cursor/plugins/pstack/skills/technical-writing#c742dd6
   mcp: []
 includes: auto
 scripts: {}
