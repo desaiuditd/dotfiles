@@ -42,6 +42,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "voiceink"
 cask "whatsapp"
+cask "xykong/tap/flux-markdown"
 cask "zoom" # This app is not respecting the appdir setting.
 
 if File.exist?(File.expand_path("~/.Brewfile.local"))
